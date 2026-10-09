@@ -62,6 +62,18 @@ fun ActifitasPertama(modifier: Modifier) {
                     contentDescription = null,
                     modifier = modifier.size(100.dp).padding(all = 5.dp)
                 )
+
+                Spacer(modifier = Modifier.width(30.dp))
+                Column {
+                    Text(
+                        text = "Apid",
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp)
+                    )
+
+                }
             }
         }
     }
