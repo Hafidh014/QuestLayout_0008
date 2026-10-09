@@ -72,7 +72,12 @@ fun ActifitasPertama(modifier: Modifier) {
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
-
+                    Text(
+                        text = "Blora, Jawa Tengah",
+                        fontSize = 20.sp,
+                        color = Color.Yellow,
+                        modifier = Modifier.padding(top = 15.dp)
+                    )
                 }
             }
         }
